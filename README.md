@@ -5,6 +5,7 @@
 $$ \sum_{i} C_{i} * CapCost_{Ci} *(AnnuF_{i} + FixCostOMF{i}) \frac {nh}{8760} ) $$
 $$+\sum_{i,t} PowerProd_{i,t}(FuelCostF_{i}+VarCostOM_{i}) \\ + HeatProd_{i,t} (FuelCostF_{i}+VarCostOM_{i})$$
 
+#### Data used in the model
 | Power and heat technologies | Stirling | PV       | Electric Storage| Heat Storage | 
 |-----:                       |----------| -------- | -------------   |--------------|
 |     Capital Cost ($/kW)     |      1500| 2000     |   65            | 20           |
