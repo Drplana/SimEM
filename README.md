@@ -5,6 +5,9 @@
 $$ \sum_{i} C_{i} * CapCost_{Ci} *(AnnuF_{i} + FixCostOMF{i}) \frac {nh}{8760} ) $$
 $$ +\sum_{i,t} PowerProd_{i,t}(FuelCostF_{i}+VarCostOM_{i}) + HeatProd_{i,t} (FuelCostF_{i}+VarCostOM_{i}) $$
 
+### Capacity Constraints
+$ Power_{t,h}≤Capacity_{t}*AvailabilityFactor_{t,h} $
+
 #### Data used in the model
 | Power and heat technologies | Stirling | PV       | Electric Storage| Heat Storage | 
 |-----:                       |----------| -------- | -------------   |--------------|
